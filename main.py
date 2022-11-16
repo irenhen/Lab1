@@ -14,7 +14,6 @@ if discrimiant > 0 :
 if discrimiant == 0 :
     koren_x1 = -(koef_B/(2*koef_A))
     print('Корни квадратного уравнения: ')
-    print("Первый корень = ", round(koren_x1))
-    print("Второй корень = ", round(koren_x1))
+    print("Единственный корень = ", round(koren_x1))
 if discrimiant < 0 :
     print('Корней квадратного уравнения не существует')
